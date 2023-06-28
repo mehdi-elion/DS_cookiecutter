@@ -1,0 +1,12 @@
+name: {{ cookiecutter.conda_env }}
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python={{ cookiecutter.python_version }}
+  - jupyterlab
+  - pip
+  - pip:
+    - -r requirements.txt
