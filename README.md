@@ -72,7 +72,7 @@ When you need to initiate a new project or fill an empty repo with the above-des
 1) Install cookiecutter by running : ```pip install cookiecutter```
 2) Apply cookiecutter to this template :
 ```console
-cookiecutter git@github.com:mehdi-elion/DS_cookiecutter.git
+cookiecutter https://github.com/mehdi-elion/DS_cookiecutter.git
 ```
 
 This will display a series of prompts which must be answered to define the python environment, the name of the project, etc... 
