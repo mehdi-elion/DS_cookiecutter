@@ -12,8 +12,8 @@ This is a data science cookiecutter template. This page serves as a guide throug
 When tackling a lot of data projects every developer has their own coding style and habits; which can also vary from one project to the other.
 Most of the time this results in:
 * heterogeneous codebases
-* harder onboarding and handovers 
-* harder code maintenance 
+* harder onboarding and handovers
+* harder code maintenance
 
 Therefore, this template is a **a way to homogenize and enforce coding standards across data-related projects**.
 
@@ -22,7 +22,7 @@ Therefore, this template is a **a way to homogenize and enforce coding standards
 This template proposes the following repository structure.
 
 ```console
-├── conf/          <-- store project config   
+├── conf/          <-- store project config
 │   ├── base/         <-- contains metadata & params used from the code
 │   └── local/        <-- [gitignored] must contain secrets & credentials
 ├── data/             <-- store data & models depending or project layers
@@ -50,7 +50,7 @@ This template proposes the following repository structure.
 └── README.md
 ```
 
-Each folder has a dedicated role, as displayed above. 
+Each folder has a dedicated role, as displayed above.
 Various configuration files are available at the root of the directory:
 * `.gitignore` specifies which folders and files must be untracked
 * `.flake8` specifies settings for flake8-based linting
@@ -61,7 +61,7 @@ Various configuration files are available at the root of the directory:
 
 By following this organization, all data project will be structured the same way, thus enabling:
 * homogeneity over codebases
-* easier onboarding and handovers 
+* easier onboarding and handovers
 * better code modularity & maintainability
 
 
@@ -75,8 +75,8 @@ When you need to initiate a new project or fill an empty repo with the above-des
 cookiecutter https://github.com/mehdi-elion/DS_cookiecutter.git
 ```
 
-This will display a series of prompts which must be answered to define the python environment, the name of the project, etc... 
-Note that default values are between brackets; they will be used if you press enter before typing anything. 
+This will display a series of prompts which must be answered to define the python environment, the name of the project, etc...
+Note that default values are between brackets; they will be used if you press enter before typing anything.
 
 <!-- <p align=center>
     <img src="images/cookicutter_prompt.png"  height="100">
@@ -88,7 +88,7 @@ Once it's done, the project is created where you typed the command with the prom
     <img src="images/proj_created.png"  height="100">
 </p> -->
 
-Here is an example of the `environment.yml` intiated with cookiecutter. 
+Here is an example of the `environment.yml` intiated with cookiecutter.
 <!-- <p align=center>
     <img src="images/example_env_yml.png"  width="800">
 </p> -->

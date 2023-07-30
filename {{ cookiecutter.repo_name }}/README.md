@@ -23,7 +23,7 @@ To install them, run:
 pip install -r src/requirements.txt
 ```
 
-or 
+or
 
 ```console
 conda env create -f src/environment.yml
