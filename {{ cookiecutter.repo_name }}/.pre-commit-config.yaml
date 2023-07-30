@@ -1,3 +1,9 @@
+exclude: |
+    (?x)^(
+        .*__init__.py$|
+        .*setup.py$|
+    )$
+
 repos:
 
 -   repo: https://github.com/pre-commit/pre-commit-hooks
