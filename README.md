@@ -2,7 +2,7 @@
 A cookiecutter template for Data Science Projects
 
 ## Introduction
-This is a data science cookiecutter template. This page wiserves as a guide through the whys and wherefores of this template, as well as the different steps to execute in order to use it.
+This is a data science cookiecutter template. This page serves as a guide through the whys and wherefores of this template, as well as the different steps to execute in order to use it.
 
 <!-- <p align=center>
     <img src="/images/data_logo_full_black.png"  height="100">
