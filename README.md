@@ -1,3 +1,5 @@
+![pre-commit](https://github.com/{{ cookiecutter.github_user_name }}/{{ cookiecutter.repo_name }}/actions/workflows/pre-commit.yml/badge.svg)
+
 # DS_cookiecutter
 A cookiecutter template for Data Science Projects
 

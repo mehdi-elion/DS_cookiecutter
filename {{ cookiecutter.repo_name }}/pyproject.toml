@@ -1,5 +1,6 @@
 [tool.isort]
 profile = "black"
+line_length = 90
 
 [tool.pytest.ini_options]
 addopts = """
